@@ -1,0 +1,33 @@
+name: MarvOre
+main: marvtechnology.marvore.MarvOrePlugin
+version: 1.0
+api-version: 1.20
+folia-supported: true
+
+commands:
+  ore:
+    description: カスタム鉱石を管理するコマンド
+    usage: /ore <list|give|nbt|reload|create>
+    aliases: []
+    permission: marvore.ore
+    permission-message: "§cこのコマンドを使用する権限がありません。"
+
+permissions:
+  marvore.ore:
+    description: /ore コマンド全体の使用権限
+    default: op
+  marvore.ore.list:
+    description: /ore list を使用する権限
+    default: true
+  marvore.ore.give:
+    description: /ore give を使用する権限
+    default: op
+  marvore.ore.nbt:
+    description: /ore nbt を使用する権限
+    default: op
+  marvore.ore.reload:
+    description: /ore reload を使用する権限
+    default: op
+  marvore.ore.create:
+    description: /ore create を使用する権限
+    default: op

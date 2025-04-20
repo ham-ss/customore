@@ -1,0 +1,60 @@
+custom_ores:
+  ores:
+    Ruby:
+      base_material: RED_DYE
+      particle_effect: true
+      custom_model_data: 1001
+      nbt_tags:
+        custom_ore: 'true'
+        rarity: Ruby
+      lore:
+        - '特別な鉱石: Ruby'
+
+    BlueSapphire:
+      base_material: LIGHT_BLUE_DYE
+      particle_effect: true
+      custom_model_data: 1002
+      nbt_tags:
+        custom_ore: 'true'
+        rarity: BlueSapphire
+      lore:
+        - '特別な鉱石: BlueSapphire'
+
+    Platinum:
+      base_material: IRON_INGOT
+      particle_effect: true
+      custom_model_data: 1003
+      nbt_tags:
+        custom_ore: 'true'
+        rarity: Platinum
+      lore:
+        - '特別な鉱石: Platinum'
+
+    Uranium:
+      base_material: LIME_DYE
+      particle_effect: true
+      custom_model_data: 1004
+      nbt_tags:
+        custom_ore: 'true'
+        rarity: Uranium
+      lore:
+        - '特別な鉱石: Uranium'
+    Osmium:
+      base_material: NETHER_BRICK
+      particle_effect: true
+      custom_model_data: 1005
+      nbt_tags:
+        custom_ore: 'true'
+        rarity: Osmium
+      lore:
+        - '特別な鉱石: Osmium'
+
+    Titanium:
+      base_material: FLINT
+      particle_effect: true
+      custom_model_data: 1006
+      nbt_tags:
+        custom_ore: 'true'
+        rarity: Titanium
+      lore:
+        - '特別な鉱石: Titanium'
